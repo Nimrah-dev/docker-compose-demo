@@ -10,6 +10,7 @@ app, database, and cache running as separate services on a shared network.
 
 ## Run it
 Create a .env file with DB_PASSWORD=yourpassword before running.
+
 docker compose up -d
 
 ## Endpoints
