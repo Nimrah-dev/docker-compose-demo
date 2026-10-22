@@ -9,14 +9,23 @@ app, database, and cache running as separate services on a shared network.
 - Redis
 
 ## Run it
-Create a .env file with DB_PASSWORD=yourpassword before running.
-
 docker compose up -d
 
 ## Endpoints
 - / — health check
 - /db-check — verifies database connectivity
 - /cache-check — verifies Redis connectivity
+
+## Screenshots
+
+### Home endpoint
+![Home](screenshots/d-app1.jpg)
+
+### Database connectivity check
+![DB Check](screenshots/d-app2.jpg)
+
+### Cache connectivity check
+![Cache Check](screenshots/d-app3.jpg)
 
 ## What I learned
 - Multi-container orchestration with Docker Compose
