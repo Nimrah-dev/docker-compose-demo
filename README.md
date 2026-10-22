@@ -19,13 +19,13 @@ docker compose up -d
 ## Screenshots
 
 ### Home endpoint
-![Home](screenshots/d-app1.jpg)
+![Home](Screenshots/d-app1.jpg)
 
 ### Database connectivity check
-![DB Check](screenshots/d-app2.jpg)
+![DB Check](Screenshots/d-app2.jpg)
 
 ### Cache connectivity check
-![Cache Check](screenshots/d-app3.jpg)
+![Cache Check](Screenshots/d-app3.jpg)
 
 ## What I learned
 - Multi-container orchestration with Docker Compose
